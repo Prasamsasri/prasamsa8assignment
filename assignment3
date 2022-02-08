@@ -1,0 +1,5 @@
+si=int(input('enter interest amount:'))
+p=int(input('enter principle amount:'))
+t=int(input('enterr total number of terms:'))
+EMI=si+p/t*12
+print('total amount',EMI)
